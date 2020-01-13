@@ -1,0 +1,10 @@
+$(function(){
+    $.ajax({
+      url:'http://127.0.0.1:8080/reg/all',
+      type:'get',
+      dataType:'json',
+      success:function(result){
+        console.log(result)
+      }
+    })
+  })
