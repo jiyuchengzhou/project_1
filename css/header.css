@@ -1,0 +1,135 @@
+/*导航栏*/
+ .navbar-dark .navbar-toggler-icon{
+    background-image: url(../img/Snipaste_2019-11-27_21-03-00.png);
+}
+.nav-link{
+    color: #000 !important;
+}
+.bg-dark {
+    background-color: #f4f4f4 !important;
+}
+@media (min-width:768px) {
+    .img_icon1{
+        height:70px;
+        width:150px;
+    }
+}
+@media (max-width:767px) {
+    .img_icon1{
+        height:50px;
+    }
+}
+
+/*轮播图*/
+.carousel-control-prev,
+.carousel-control-next{
+    width:4%;height:20%;
+    background:#aaa;
+    top:40%;
+    border-radius: 0.25rem;
+}
+.carousel-indicators li{
+    width:0.8rem;height:0.8rem;
+    background-color:#fff;
+    border-radius: 50%;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+}
+.carousel-indicators .active{
+    background-color:#0aa1ed;
+}
+/*跳动新闻条*/
+.bg-gray{
+    background:#f9f9f9;
+}
+.fzc-12{
+    font-size: 12px;
+    color:#666;
+}
+/*服务简介*/
+.img-instyle{
+    width: 313px;
+    height: 140px;
+}
+@media (min-width:576px) and (max-width: 768px) {
+    .img-instyle {
+        width: 250px;
+        height: 140px;
+    }
+}
+@media (min-width: 992px){
+    .col_md_4 {
+        width: 33.33333333%;
+    }
+}
+
+
+.fzc-12c3{
+    font-size: 12px;
+    color:#333;
+}
+.font-a{
+    font-size: 14px;
+    color:#666;
+}
+/*业务中心*/
+.image_wh{
+    width:250px;
+}
+.bg_eee{
+    background-color: #eee;
+}
+
+
+/*网页底部*/
+.bg-bottom{
+    background-color: #2d2d2d;
+}
+.font-bottom{
+    color: #fff;
+    font-size:12px;
+}
+.font-14{
+    font-size: 14px;
+}
+
+/*second*/
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+/*third*/
+.font_c333{
+    font-size: 14px;
+    color:#333;
+}
+/*foutth*/
+.w_90p{
+    width:90px;
+}
+.height_112{
+    height:112px;
+}
+.font_888{
+    font-size: 12px;
+    color:#888;
+}
+.font_c666{
+    color:#666;
+    font-size: 15px;
+}
+.font_s60{
+    font-size: 60px;
+    color:#888;
+}
+@media (max-width: 768px) {
+    .col_md_0{
+         display: none;
+     }
+}
+.border_dotted{
+    border:1px dotted #6c757d;
+}
+
+
+
